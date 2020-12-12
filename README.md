@@ -1,4 +1,4 @@
-# Challange-18-nosql-social-media-api
+# Challenge-18-nosql-social-media-api
 
 
 
@@ -24,7 +24,9 @@
 This app allows users to log in, sign up, connect to 4 different chat rooms, & leave room.
 
 # Table of Contents 
+* [Description](#Description)
 * [Installation & Database SetUp](#Installation)
+* [Walk-through-Video](#Walk-through)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)

@@ -1,0 +1,29 @@
+{
+  "name": "challenge-18-nosql-social-media-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Juan Carlos Gomez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcgom3/Challange-18-nosql-social-media-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcgom3/Challange-18-nosql-social-media-api/issues"
+  },
+  "homepage": "https://github.com/jcgom3/Challange-18-nosql-social-media-api#readme"
+}
