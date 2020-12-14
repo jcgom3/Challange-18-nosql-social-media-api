@@ -43,6 +43,10 @@ This app allows users to log in, sign up, connect to 4 different chat rooms, & l
 * If on Heroku, all you have to do is login.
 
 
+# Walk-through Video
+
+[![Demo-Video](public/assets/images/DemoVideo.png)](https://drive.google.com/file/d/1h8ebfgvukfQBb8nos531tF4g-VgHJv8S/view)
+
 
 # Usage
 In order to use this app on VS, install the node dependencies shown on package.json. Run the app in the terminal on VS Code use npm start. Or can check the app live on Heroku.
