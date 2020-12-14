@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 3001;
 //middleware json
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+
+//middleware route
+app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/nosql-social-media-api', {
   useFindAndModify: false,
@@ -18,7 +22,5 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/nosql-social-me
 mongoose.set('debug', true);
 
 
-//middleware route
-app.use(require('./routes'));
 
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
